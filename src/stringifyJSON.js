@@ -35,10 +35,7 @@ var stringifyJSON = function(obj) {
   //numbers
   return ''+obj;
 
-  // test for object
 
-
-  // string
 
   //
 };
