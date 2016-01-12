@@ -4,7 +4,6 @@
 // but you don't so you're going to write it from scratch:
 
 var stringifyJSON = function(obj) {
-  // your code goes here
 
   if (Array.isArray(obj)) {
     var results = [];
@@ -27,7 +26,7 @@ var stringifyJSON = function(obj) {
     return '{' + results.join(',') + '}';
   }
 
-    //string
+  //string
   if (typeof obj === 'string') {
     return '"' + obj + '"';
   }
@@ -35,7 +34,4 @@ var stringifyJSON = function(obj) {
   //numbers
   return ''+obj;
 
-
-
-  //
 };
